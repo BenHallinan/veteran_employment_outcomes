@@ -17,8 +17,47 @@ Additionally, looking at this data through another lense, could it allow senior 
 # Data
 The dataset that I am using is an experimental tabulation of Enlisted Veteran Employment Outcomes by the US Census Bureau which was developed in partnership with the Longitudinal Employer-Household Dynamics (LEHD) program and the United States Army. You can find the link to the original tabulation of the data [here] (https://lehd.ces.census.gov/data/veo_experimental.html). 
 
-The tabulation of data provides earning and employment data from veterans who left military service from 2000 - 2015. The dataset then sorts them in a variety of ways. The primary categorization and grouping of the enlisted veterans is done so by pay grade (E1 - E9) and military occupation (which I will refer to as MOS). The data is further sub-categorized by the civilian industry the veterans entered, their geographic region, age, race & ethnicity, education obtained, and by AFQT terciles.   
+The tabulation of data provides earning and employment data from veterans who left military service from 2000 - 2015. The dataset then sorts them in a variety of ways. The primary categorization and grouping of the enlisted veterans is done so by pay grade (E1 - E9) and military occupation (which I will refer to as MOS). The data is further sub-categorized by the civilian industry the veterans entered, their geographic region, age, race & ethnicity, education obtained, and by AFQT terciles. For the purpose of this analysis I am primarily going to be looking at the MOS and pay grade of the Veterans and what civilian industry they entered. 
 
+# Exploratory Data Analysis
+
+## Employment and Unemployment By Pay Grade
+![](/visuals/employment_by_paygrade.png)
+Taking a look at the employment outcomes by pay grade gives us a good general look at the overall success of enlisted veterans in finding a job based on what rank they obtained by the time they left service. 
+![](/visuals/unemployment_by_paygrade.png)
+Right away we can see that the group that consist of the senior NCOs of our enlisted veterans (E6-E9), overall faired better finding employment in the civilian markets then their junior NCO and soldier counterparts. In the first year post-service, the senior enlisted veterans made up 27% of those who found employment and only 16.5% of those still unemployed. By the 10 year mark, the senior enlisted veterans made up only 11% who took up until that point post-service to find employment and only 4.7% of those that were still unemployed.
+
+These initial findings are not surprising given the time, experience, and qualifications required to obtain the higher pay grades in the US military.
+
+## Employment Outcome and Average Pay: Combat MOS vs Non-Combat MOS
+One of the main questions that I asked for this dataset was whether their was a significant difference in employment outcomes based on whether the veteran was a combat arms related MOS or a non-combat arms MOS during their time in service. Below is a table outlining what MOS's where included in the data set and what group of the two I put them in. One note to make on the avaiable set of professions is the limited and generalized nature of them. The categorization of the dataset includes both highly generalized as well as some niche/extremely specific occupations and therefore is not all encompassing or representative of the wide range of occupations and specializations across the entire armed forces.
+| **Combat MOS List**                   | **Non-Combat MOS** List                                      |
+| ---------------------------------- | -------------------------------------------------------- |
+| Infantry, General                  | Unmanned Vehicle System (UVS)<br>Operators, General      | Cyberspace Operations, General |
+| Armor and Amphibious, General      | Navigation, Communication, and<br>Countermeasure, N.E.C. | Medical Care and Treatment, General |
+| Combat Engineering, General        | Shipboard and Other Fire Control                         | Radiology |
+| Missile Artillery, Operating Crew  | Missile Guidance and Control                             | Diet Therapy |
+| Small Boat Operators               | Teletype and Cryptographic Equipment,<br>General         | Dental Care, General |
+| Combat Operations Control, General | Radio Operators                                          | Medical Administration |
+| Weather, General                   | Air Traffic Control                                      | Photography, General |
+| EOD/UDT                            | Intercept Operators (Code and Non-Code)                  | Surveying |
+| Firefighting and Damage Control    | Operational Intelligence                                 | Musicians, General |
+| Law Enforcement, General           | Communications Center Operations,<br>General             | Recruiting and Counseling |
+|                                    | Legal                                                    | Other Mechanical and Electrical<br>Equipment, General |
+|                                    | Combined Personnel and Administration,<br>General        | Metal Body Repair |
+|                                    | Operators/Analysts/Programmers                           | Construction Equipment Operation |
+|                                    | Disbursing                                               | Utilities, General |
+|                                    | Supply Administration                                    | Lithography, General |
+|                                    | Chaplain's Assistants                                    | Fabric, Leather, and Rubber, General |
+|                                    | Information and Education, General                       | Food Service, General |
+|                                    | Aircraft, General                                        | Motor Vehicle Operators |
+|                                    | Automotive, General                                      | Missile Fuel and Petroleum |
+|                                    | Lineman/Central Office                                   | Laundry and Personal Service, General |
+|                                    | Aviation Ordinance                                       | Forward Area Equipment Support,<br>General |
+|                                    | Auxiliaries                                              |  |
+|                                    | Electric Power                                           |  |
+
+# Results
 
 
 
